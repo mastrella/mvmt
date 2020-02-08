@@ -235,6 +235,6 @@ var initApp = function() {
 //   document.querySelector(
 //       'input[name="emailSignInMethod"][value="' + getEmailSignInMethod() + '"]')
 //       .checked = true;
-// };
+};
 
 window.addEventListener('load', initApp);
