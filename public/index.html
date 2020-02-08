@@ -49,8 +49,9 @@
     						<br/><br/>
     						Create your mvmt.bio today.
     						<br/><br/>
-                <button onclick="window.location.href = 'profile/profile.html';">See Profile</button>
+                <button onclick="window.location.href = 'profile/profile.html';">See Example Profile</button>
                 <br/><br/>
+                <button onclick="window.location.href = 'register/register.html';">Register Now</button>
     					</p>
     					<p></p>
     				</div>
@@ -82,46 +83,6 @@
               <button id="sign-in-with-popup">Sign In with Popup</button>
             </p> -->
             <div id="firebaseui-container"></div>
-            <form action="" method="POST" id="registrationform">
-              <h1>Register</h1>
-              <div class="alert">Message Sent</div>
-              <fieldset>
-                <!-- Section 1 -->
-                <legend><span class="section">1</span>Basic Info</legend>
-                <label class="" for="name">name:</label>
-                <input type="text" name="name" value="" id="name" required />
-                <label class="" for="email">email:</label>
-                <input type="email" name="email" value="" id="email" required />
-                <label for="password">password:</label>
-                <input type="password" name="password" value="" id="password" required />
-              </fieldset>
-              <fieldset>
-                <!-- section 2 -->
-                <legend><span class="section">2</span>Profile</legend>
-                <label class="" for="bio">Bio:</label>
-                <textarea name="bio" id="bio" required></textarea>
-                <label for="job">Specialty:</label>
-                <select name="job" id="job" required>
-                  <optgroup label="Training Style">
-                    <option value="front_end_developer" id="frontend">Yoga</option>
-                    <option value="back_end_developer" id="backend">Pilates</option>
-                    <option value="fullstack_developer" id="fullstack">Calisthenics</option>
-                  </optgroup>
-                  <optgroup label="Focus Area">
-                    <option value="android" id="android">Health & Wellness</option>
-                    <option value="ionic" id="ionic">Stress Relief</option>
-                    <option value="phonegap" id="phonegap">Pain Management</option>
-                  </optgroup>
-                </select>
-                <br /><br />
-                <label>Interests:</label>
-                <select id="interest" required>
-                  <option value="development">Nutrition</option>
-                  <option value="design">Exercise</option>
-                  <option value="business">Balance</option>
-                </select>
-                <button type="submit" sendMessage()>Register</button>
-            </form>
           </div>
         </div>
       </div>
