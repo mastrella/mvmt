@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FirebaseUI Auth Demo</title>
     <link rel="manifest" href="manifest.json">
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase.js"></script>
@@ -12,7 +13,6 @@
     <link type="text/css" rel="stylesheet" href="dist/firebaseui.css" /> -->
     <script src="https://www.gstatic.com/firebasejs/ui/4.4.0/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.4.0/firebase-ui-auth.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="app.js"></script>
   </head>
   <body>
@@ -51,7 +51,9 @@
     						<br/><br/>
                 <button onclick="window.location.href = 'profile/profile.html';">See Example Profile</button>
                 <br/><br/>
-                <button onclick="window.location.href = 'register/register.html';">Register Now</button>
+                If you prefer to register an account with access via password instead of link, click below
+                <button onclick="window.location.href = 'register/register.html';">Low Security Registration</button>
+                If you prefer more secure access, use the buttons below
     					</p>
     					<p></p>
     				</div>
